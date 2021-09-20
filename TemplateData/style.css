@@ -1,5 +1,31 @@
-body { padding: 0; margin: 0 }
-#unity-container { position: absolute }
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+html, body {
+    height: 100%;
+}
+canvas {
+    display: block;
+}
+body {
+    margin: 0;
+    background-color: #231F20 !important;
+}
+
+#unity-container {
+    width: 100%;
+    height: 100%;
+}
+#unity-canvas {
+    width: 100%;
+    height: 100%;
+}
+
+#unity-start { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); font-size: x-large; }
+#unity-container { position: absolute; }
 #unity-container.unity-desktop { left: 50%; top: 50%; transform: translate(-50%, -50%) }
 #unity-container.unity-mobile { width: 100%; height: 100% }
 #unity-canvas { background: #231F20 }
