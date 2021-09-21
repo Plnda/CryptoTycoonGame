@@ -38,9 +38,9 @@
     const buildUrl = "Build";
     const loaderUrl = buildUrl + "/CryptoTycoonGame.loader.js";
     const config = {
-      dataUrl: buildUrl + "/CryptoTycoonGame.data",
-      frameworkUrl: buildUrl + "/CryptoTycoonGame.framework.js",
-      codeUrl: buildUrl + "/CryptoTycoonGame.wasm",
+      dataUrl: buildUrl + "/CryptoTycoonGame.data.gz",
+      frameworkUrl: buildUrl + "/CryptoTycoonGame.framework.js.gz",
+      codeUrl: buildUrl + "/CryptoTycoonGame.wasm.gz",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "Pnda Studios",
       productName: "Crypto Tycoon",
@@ -53,6 +53,7 @@
     var loadingBar = document.querySelector("#unity-loading-bar");
     var progressBarFull = document.querySelector("#unity-progress-bar-full");
     var fullscreenButton = document.querySelector("#unity-fullscreen-button");
+
     var frame = document.querySelector("#unity-readme");
   
     frame.addEventListener("load", ev => {
