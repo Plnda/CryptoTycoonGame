@@ -1,0 +1,111 @@
+{
+  "main": {
+    "id": "8606f79a83c385f6",
+    "type": "split",
+    "children": [
+      {
+        "id": "b35a68524058c247",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Changelog.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d14b8b80f903428b",
+    "type": "split",
+    "children": [
+      {
+        "id": "22990d7dc6d9a6bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1dee960acb74d557",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "59823a86c5cad658",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0cabb695d766a7fa",
+    "type": "split",
+    "children": [
+      {
+        "id": "09b22c89e98b174d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ad00f6b070dfa5b2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Changelog.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "42219cb541db7809",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "b35a68524058c247",
+  "lastOpenFiles": [
+    "Changelog.md",
+    "Project Management Tasks.md",
+    "Versions.md",
+    "Summary.md",
+    "filename.png.md",
+    "Readme.md",
+    "Untitled.md",
+    "Tasks.md",
+    "Idea.md"
+  ]
+}
