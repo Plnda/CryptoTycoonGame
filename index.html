@@ -10,6 +10,7 @@
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   <script src="Build/docs.loader.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <style>
     #unityCanvas {
       display: flex;
@@ -24,7 +25,7 @@
     <canvas id="unity-canvas">
     </canvas>
     <button id="unity-start" class="btn btn-success">Start Crypto Tycoon</button>
-    <iframe id="unity-readme" style="border: 0;" src="Documentation/Changelog.md"></iframe>
+    <div style="color: #fff; font-size: 16px;" id="unity-readme"></div>
     <div id="unity-loading-bar">
       <div id="unity-logo"></div>
       <div id="unity-progress-bar-empty">
@@ -54,13 +55,19 @@
     var progressBarFull = document.querySelector("#unity-progress-bar-full");
     var fullscreenButton = document.querySelector("#unity-fullscreen-button");
 
-    var frame = document.querySelector("#unity-readme");
-  
-    frame.addEventListener("load", ev => {
-      const new_style_element = document.createElement("style");
-      new_style_element.textContent = "html { color: #fff; }"
-      ev.target.contentDocument.head.appendChild(new_style_element);
-    });
+    var changelog = document.querySelector("#unity-readme");
+
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", "Documentation/Changelog.md", true);
+    xhr.onload = function(e) {
+      let status = xhr.status;
+
+      if (status == 200) {
+          changelog.innerHTML = marked(xhr.responseText);
+      }
+    };
+
+    xhr.send();
 
     if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
       container.className = "unity-mobile";
@@ -73,7 +80,7 @@
       script.src = loaderUrl;
       script.onload = () => {
 
-        frame.style.display = "none";
+        changelog.style.display = "none";
         startButton.style.display = "none";
         loadingBar.style.display = "block";
 

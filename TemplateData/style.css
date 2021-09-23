@@ -24,7 +24,7 @@ body {
     height: 100%;
 }
 
-#unity-readme { position: absolute; left: 50%; top: 75%; transform: translate(-50%, -50%); width: 50%; font-size: x-large; }
+#unity-readme { position: absolute; left: 50%; top: 75%; transform: translate(-50%, -50%); width: 50%; height: 25%; margin: 16px 16px 16px 16px; overflow: auto;}
 #unity-start { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); font-size: x-large; }
 #unity-container { position: absolute; }
 #unity-container.unity-desktop { left: 50%; top: 50%; transform: translate(-50%, -50%) }

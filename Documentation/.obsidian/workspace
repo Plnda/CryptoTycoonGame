@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "b35a68524058c247",
+        "id": "6dedb483c60f9e01",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -96,7 +96,7 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "b35a68524058c247",
+  "active": "6dedb483c60f9e01",
   "lastOpenFiles": [
     "Changelog.md",
     "Project Management Tasks.md",
