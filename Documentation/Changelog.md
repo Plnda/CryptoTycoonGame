@@ -1,6 +1,7 @@
 ---
 aliases: [Changelog]
 ---
+# Changelog
 
 - Pre Alpha Build 0.0.1
     - Basic Build
@@ -18,3 +19,7 @@ aliases: [Changelog]
 	- Make sure that you start with a bit of money 
 	- Make a basic purchase system that allows you to actually spend it
 	- Make sure that we can snap our base panels to different anchors
+
+---
+**Page Tags**
+#changelog

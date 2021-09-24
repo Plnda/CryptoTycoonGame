@@ -1,4 +1,6 @@
-
+---
+aliases: [Tasks]
+---
 # Project Management Tasks
 - [ ] Create a template for web test builds
 - [ ] Make sure we can gather feedback
@@ -8,3 +10,7 @@
 - [ ] Look for icons and assets
 - [ ] Create marketing strategy
 - [ ] Look into selling on steam
+
+---
+**Page Tags**
+#tasks

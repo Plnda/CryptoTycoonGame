@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Changelog.md",
+            "file": "Summary.md",
             "mode": "preview"
           }
         }
@@ -39,8 +39,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": false,
+                "query": "Project",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Changelog.md",
+                "file": "Summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,21 +90,24 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "6dedb483c60f9e01",
   "lastOpenFiles": [
-    "Changelog.md",
-    "Project Management Tasks.md",
-    "Versions.md",
     "Summary.md",
+    "Project Management Tasks.md",
+    "Changelog.md",
+    "Resources.md",
+    "Untitled.md",
+    "Versions.md",
     "filename.png.md",
     "Readme.md",
-    "Untitled.md",
     "Tasks.md",
     "Idea.md"
   ]
