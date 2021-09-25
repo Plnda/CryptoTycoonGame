@@ -19,6 +19,11 @@ aliases: [Changelog]
 	- Make sure that you start with a bit of money 
 	- Make a basic purchase system that allows you to actually spend it
 	- Make sure that we can snap our base panels to different anchors
+- Pre Alpha Build 0.0.6
+	- Added outlines that willl show up when you select a rig
+	- Removed button that would allow you top open the rig detail menu (this will be replaced later on)
+	- Added a rolling number animation when you receive or trade money / coins
+	- Improvements with the tooltip, that makes sure the 3d world doesnt overlap with the gui interfaces
 
 ---
 **Page Tags**

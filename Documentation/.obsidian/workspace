@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Summary.md",
-            "mode": "preview"
+            "file": "Changelog.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Summary.md",
+                "file": "Changelog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,9 +100,9 @@
   },
   "active": "6dedb483c60f9e01",
   "lastOpenFiles": [
-    "Summary.md",
-    "Project Management Tasks.md",
     "Changelog.md",
+    "Project Management Tasks.md",
+    "Summary.md",
     "Resources.md",
     "Untitled.md",
     "Versions.md",
