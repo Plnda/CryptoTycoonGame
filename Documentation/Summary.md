@@ -11,7 +11,7 @@ A tycoon game where you need to manage your own crypto mining imperium. You star
 The game will be made using [Unity](https://unity3d.com). Specifically during development the 2020.3.x LTS version will be used. 
 
 ### Planned features
-- Purchase and construct items
+- Purchase and construct items (based on a global stock)
 - Mining a virtual coin and trading it for cash
 - Generating a virtual coin and make sure value increases/decreases over time
 - Randomly introduces timed events that can influence the price of the coin

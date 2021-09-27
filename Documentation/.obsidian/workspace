@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "Changelog.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -101,9 +101,9 @@
   "active": "6dedb483c60f9e01",
   "lastOpenFiles": [
     "Changelog.md",
-    "Project Management Tasks.md",
     "Summary.md",
     "Resources.md",
+    "Project Management Tasks.md",
     "Untitled.md",
     "Versions.md",
     "filename.png.md",

@@ -24,6 +24,11 @@ aliases: [Changelog]
 	- Removed button that would allow you top open the rig detail menu (this will be replaced later on)
 	- Added a rolling number animation when you receive or trade money / coins
 	- Improvements with the tooltip, that makes sure the 3d world doesnt overlap with the gui interfaces
+- Pre Alpha Build 0.0.7
+	-  Added a new purchase menu to purchase new cards
+	-  Removed the hash rate monitor for now information can now be found in the relevant windows
+	-  Added a bind / unbind card option when managing your rig.
+	
 
 ---
 **Page Tags**
