@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Changelog.md",
+            "file": "Development/UI.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Changelog.md",
+                "file": "Development/UI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,15 +100,15 @@
   },
   "active": "6dedb483c60f9e01",
   "lastOpenFiles": [
+    "Development/UI.md",
+    "Screenshot 2021-09-27 at 21.47.36.png",
+    "Screenshot 2021-09-27 at 21.47.59.png",
+    "Development/Untitled.md",
     "Changelog.md",
     "Summary.md",
     "Resources.md",
     "Project Management Tasks.md",
     "Untitled.md",
-    "Versions.md",
-    "filename.png.md",
-    "Readme.md",
-    "Tasks.md",
-    "Idea.md"
+    "Versions.md"
   ]
 }
