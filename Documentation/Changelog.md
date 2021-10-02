@@ -28,6 +28,12 @@ aliases: [Changelog]
 	-  Added a new purchase menu to purchase new cards
 	-  Removed the hash rate monitor for now information can now be found in the relevant windows
 	-  Added a bind / unbind card option when managing your rig.
+- Pre Alpha Build 0.0.8
+	-  Added a visual heat map based on a gradient (still an ongoing effort and is purely visual for now)
+	-  Made sure that tiles can dissipate heat and also transfer heat
+	-  Added a quality menu on the main menu so you can swap out colors
+	-  Added a new flat shading material to all the buildings for a more nicer art style
+
 	
 
 ---
