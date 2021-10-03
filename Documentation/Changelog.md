@@ -33,6 +33,10 @@ aliases: [Changelog]
 	-  Made sure that tiles can dissipate heat and also transfer heat
 	-  Added a quality menu on the main menu so you can swap out colors
 	-  Added a new flat shading material to all the buildings for a more nicer art style
+- Pre Alpha Build 0.0.9
+	-  Added a new item (without a graphic) Air Cooler that will transfer heat across the room, values are still prety rough but will be improved later on
+	-  Heat will be measured based on the total used watts (watts / 10)
+	-  Added a debug menu that can be opened with the \` key
 
 	
 
