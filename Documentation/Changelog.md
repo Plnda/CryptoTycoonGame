@@ -34,12 +34,15 @@ aliases: [Changelog]
 	-  Added a quality menu on the main menu so you can swap out colors
 	-  Added a new flat shading material to all the buildings for a more nicer art style
 - Pre Alpha Build 0.0.9
-	-  Added a new item (without a graphic) Air Cooler that will transfer heat across the room, values are still prety rough but will be improved later on
+	-  Added a new item (without a graphic) Air Cooler that will transfer heat across the room, values are still pretty rough but will be improved later on
 	-  Heat will be measured based on the total used watts (watts / 10)
-	-  Added a debug menu that can be opened with the \` key
-
-	
-
+	-  Added a debug menu that can be opened with the shift + \` key
+- Pre Alpha Build 0.0.10
+	-  Added splines to the game, this allows me to simulate some easy traffic without building a whole traffic system
+	-  Added a delivery car to the game that will later on deliver your ordered items in a timely manner spawn him using the `c.start.delivery` command in the console
+	-  Delivery car will honk its horn when you can claim the delivery and will drive away
+	-  Added a small world around the main area to give it a more character
+	-  Added a dissolve shader that will dissolve anything that moves outside of the world. That uses a proper material
 ---
 **Page Tags**
 #changelog
