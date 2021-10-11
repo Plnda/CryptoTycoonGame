@@ -43,6 +43,10 @@ aliases: [Changelog]
 	-  Delivery car will honk its horn when you can claim the delivery and will drive away
 	-  Added a small world around the main area to give it a more character
 	-  Added a dissolve shader that will dissolve anything that moves outside of the world. That uses a proper material
+- Pre Alpha Build 0.0.11
+	-  Added an indicator when the heatmap overlay is active 
+	-  Minor Hud changes to make it feel a bit better
+	-  Added a minimap to the hud that shows you where you are in the world
 ---
 **Page Tags**
 #changelog
