@@ -1,13 +1,11 @@
 html {
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif !important;
 }
 *, *:before, *:after {
     box-sizing: inherit;
 }
 html, body {
     height: 100%;
-    font-family: 'Poppins', sans-serif !important;
 }
 canvas {
     display: block;
