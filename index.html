@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   <script src="Build/docs.loader.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <style>
     #unityCanvas {
       display: flex;
@@ -19,13 +22,12 @@
     }
   </style>
 </head>
-
 <body>
   <div id="unity-container" class="unity-desktop">
     <canvas id="unity-canvas">
     </canvas>
-    <button id="unity-start" class="btn btn-success">Start Crypto Tycoon V0.0.11</button>
-    <div style="color: #fff; font-size: 16px;" id="unity-readme"></div>
+    <button id="unity-start" class="btn btn-large" style="background-color: #08A0F8 !important; color: #DFDEE0;">Start Crypto Tycoon V0.0.12</button>
+    <div style="color: #DFDEE0; font-size: 16px;" id="unity-readme"></div>
     <div id="unity-loading-bar">
       <div id="unity-logo"></div>
       <div id="unity-progress-bar-empty">
@@ -45,7 +47,7 @@
       streamingAssetsUrl: "StreamingAssets",
       companyName: "Pnda Studios",
       productName: "Crypto Tycoon",
-      productVersion: "0.0.11",
+      productVersion: "0.0.12",
     };
 
     var container = document.querySelector("#unity-container");

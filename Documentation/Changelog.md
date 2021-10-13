@@ -47,6 +47,14 @@ aliases: [Changelog]
 	-  Added an indicator when the heatmap overlay is active 
 	-  Minor Hud changes to make it feel a bit better
 	-  Added a minimap to the hud that shows you where you are in the world
+- Pre Alpha Build 0.0.12
+	-  Automatically convert your coins at the given rate back to $ to cover your monthly fees
+	-  Implement a new design that better fits the game
+	-  Updated the main landing site to display new colors
+	-  Implemented a new screen that shows your current transactions (rent/power usage)
+	-  Overhauled the exchange screen to the new design pallete
+	-  Added buying of crypto so you can play the market
+	-  Added some work in progress vehicles that will drive endlessly
 ---
 **Page Tags**
 #changelog
