@@ -55,6 +55,11 @@ aliases: [Changelog]
 	-  Overhauled the exchange screen to the new design pallete
 	-  Added buying of crypto so you can play the market
 	-  Added some work in progress vehicles that will drive endlessly
+- Pre Alpha Build 0.0.13
+	-  Added a new shopping experience that will later will be connected with the delivery service so you have to wait until your order is shipped
+	-  Overhauled all the remaining screens to the new palette 
+	-  Make sure that the build screen will display how many items you have left
+	-  Broke the delivery service so using the command `c.start.delivery` will actually not work correctly.
 ---
 **Page Tags**
 #changelog
