@@ -60,6 +60,10 @@ aliases: [Changelog]
 	-  Overhauled all the remaining screens to the new palette 
 	-  Make sure that the build screen will display how many items you have left
 	-  Broke the delivery service so using the command `c.start.delivery` will actually not work correctly.
+-  Pre Alpha Build 0.0.14
+	-  Added a notification system to the game, so you can get notifications on important gameplay events (due to the game being played at a faster rate it might feel a bit spammy)
+	-  Added a driver system to the shopping experience now you actually have to wait until your order has been delivered before you can start building
+	-  Since the driver system is implemented the `c.start.delivery` is removed from the game.
 ---
 **Page Tags**
 #changelog
