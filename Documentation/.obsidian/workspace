@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Development/UI.md",
+            "file": "Changelog.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Development/UI.md",
+                "file": "Changelog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,8 +100,8 @@
   },
   "active": "b9ed5a56332ba8d0",
   "lastOpenFiles": [
-    "Development/UI.md",
     "Changelog.md",
+    "Development/UI.md",
     "Resources.md",
     "Development/Colors.md",
     "Project Management Tasks.md",

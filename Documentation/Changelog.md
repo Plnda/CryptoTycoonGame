@@ -64,6 +64,11 @@ aliases: [Changelog]
 	-  Added a notification system to the game, so you can get notifications on important gameplay events (due to the game being played at a faster rate it might feel a bit spammy)
 	-  Added a driver system to the shopping experience now you actually have to wait until your order has been delivered before you can start building
 	-  Since the driver system is implemented the `c.start.delivery` is removed from the game.
+	-  Updated AI so it will actually try to avoid other cars, for now only te front sensors work. Diagonal sensors will be added later on
+	-  Added a new videocard to the game the `FTX 2060 Xuper` that is a bit faster than the `1660 Xuper` to give you some more sense of progression 
+	-  Updated the colors when selecting a rig to match the current theme
+	-  Updated the pivot of the rig manager so it wont shift when changing tabs
+	-  Updated FMOD attribution logo to be more sharper
 ---
 **Page Tags**
 #changelog
