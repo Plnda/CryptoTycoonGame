@@ -1,31 +1,18 @@
-html {
-    box-sizing: border-box;
-}
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-html, body {
-    height: 100%;
-}
 canvas {
     display: block;
-}
-body {
-    margin: 0;
-    background-color: #1F1D2C !important;
 }
 
 #unity-container {
     width: 100%;
     height: 100%;
+    z-index: -5;
 }
 #unity-canvas {
     width: 100%;
     height: 100%;
 }
 
-#unity-readme { position: absolute; left: 50%; top: 75%; transform: translate(-50%, -50%); width: 50%; height: 25%; margin: 16px 16px 16px 16px; overflow: auto;}
-#unity-start { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); font-size: x-large; }
+#unity-start { }
 #unity-container { position: absolute; }
 #unity-container.unity-desktop { left: 50%; top: 50%; transform: translate(-50%, -50%) }
 #unity-container.unity-mobile { width: 100%; height: 100% }
@@ -35,9 +22,35 @@ body {
 #unity-logo { width: 154px; height: 130px; background: url('unity-logo-dark.png') no-repeat center }
 #unity-progress-bar-empty { width: 141px; height: 18px; margin-top: 10px; background: url('progress-bar-empty-dark.png') no-repeat center }
 #unity-progress-bar-full { width: 0%; height: 18px; margin-top: 10px; background: url('progress-bar-full-dark.png') no-repeat center }
-#unity-footer { position: relative }
 .unity-mobile #unity-footer { display: none }
-#unity-webgl-logo { float:left; width: 204px; height: 38px; background: url('webgl-logo.png') no-repeat center }
-#unity-build-title { float: right; margin-right: 10px; line-height: 38px; font-family: arial; font-size: 18px }
-#unity-fullscreen-button { float: right; width: 38px; height: 38px; background: url('fullscreen-button.png') no-repeat center }
-#unity-mobile-warning { position: absolute; left: 50%; top: 5%; transform: translate(-50%); background: white; padding: 10px; display: none }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1F1D2C;
+    color: #DFDEE0;
+}
+
+.coins {
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./coins.svg");
+    position:fixed;
+    bottom:0;
+    height:100%;
+    width:100%;
+    z-index: -2;
+}
+
+.chips {
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.05;
+    background-image: url("./chips.svg");
+    position:fixed;
+    bottom:0;
+    height:100%;
+    width:100%;
+    z-index: -2;
+}

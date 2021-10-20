@@ -69,6 +69,12 @@ aliases: [Changelog]
 	-  Updated the colors when selecting a rig to match the current theme
 	-  Updated the pivot of the rig manager so it wont shift when changing tabs
 	-  Updated FMOD attribution logo to be more sharper
+-  Pre Alpha Build 0.0.15
+	-   Added a new command `c.set.timescale` that allows you to set the time scale  (days passed per minuted) to `x4` (Normal) `x8` (Fast) `x16` (Faster) or `x32` (Fastest) this will only affect virtual time not speed up the gameplay visually
+	-   Added a new command `c.add.item` that allows you to add items to your inventory easily for debug purposes
+	-   Added abbrivation to your money after your first million. Your cash wil display as `$1.00M` `$1.00B`
+	-   Reduced the break radius for the AI driver so it breaks less often
+	-   Fixed a bug that allowed for free store items 
 ---
 **Page Tags**
 #changelog

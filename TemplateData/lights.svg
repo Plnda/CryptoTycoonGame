@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="1024px" viewBox="0 0 1440 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>lights</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1440" height="1024"></rect>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#00FFBF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFDF98" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-2.8%" y="-6.6%" width="105.6%" height="113.3%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="24" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#00FFBF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFE698" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-5.0%" y="-6.5%" width="110.0%" height="113.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="24" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-7">
+            <stop stop-color="#00FFBF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFF598" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-6.4%" y="-6.6%" width="112.7%" height="113.3%" filterUnits="objectBoundingBox" id="filter-8">
+            <feGaussianBlur stdDeviation="24" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-9">
+            <stop stop-color="#00FFBF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FAFFD4" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-6.4%" y="-6.6%" width="112.7%" height="113.3%" filterUnits="objectBoundingBox" id="filter-10">
+            <feGaussianBlur stdDeviation="24" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="lights" transform="translate(0.000000, 0.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g opacity="0.900000036" mask="url(#mask-2)" id="Rectangle">
+                <g transform="translate(-786.470316, -61.000000)" opacity="0.593853178">
+                    <polygon fill="url(#linearGradient-3)" filter="url(#filter-4)" transform="translate(1290.405512, 542.513372) scale(-1, 1) translate(-1290.405512, -542.513372) " points="2.27373675e-13 61 2580.81102 0.0267443954 1904.34071 1085 264.147276 1085"></polygon>
+                    <polygon fill="url(#linearGradient-5)" filter="url(#filter-6)" points="909.583824 60.9732556 2038.72597 0 2192.19797 1108.58236 751.470316 1084.97326"></polygon>
+                    <polygon fill="url(#linearGradient-7)" filter="url(#filter-8)" points="1407.62851 68.3885323 2401.46221 7.41527673 1806.05534 1092.38853 1268.46221 1092.38853"></polygon>
+                    <polygon fill="url(#linearGradient-9)" filter="url(#filter-10)" transform="translate(1171.970316, 542.486628) scale(-1, 1) translate(-1171.970316, -542.486628) " points="744.636614 60.9732556 1738.47032 0 1143.06344 1084.97326 605.470316 1084.97326"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

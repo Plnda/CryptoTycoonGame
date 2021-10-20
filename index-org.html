@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Crypto Tycoon</title>
+  <link rel="shortcut icon" href="TemplateData/favicon.ico">
+  <link rel="stylesheet" href="TemplateData/style.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <script src="Build/docs.loader.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <style>
+    #unityCanvas {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="unity-container" class="unity-desktop">
+    <canvas id="unity-canvas">
+    </canvas>
+    <button id="unity-start" class="btn" style="background-color: #08A0F8 !important; color: #DFDEE0;">Start Crypto Tycoon V0.0.14</button>
+    <div style="color: #DFDEE0; font-size: 16px;" id="unity-readme"></div>
+    <div id="unity-loading-bar">
+      <div id="unity-logo"></div>
+      <div id="unity-progress-bar-empty">
+        <div id="unity-progress-bar-full"></div>
+      </div>
+    </div>
+    <audio id="waa" src="silent.mp3"></audio>
+  </div>
+  <script>
+
+    const buildUrl = "Build";
+    const loaderUrl = buildUrl + "/CryptoTycoonGame.loader.js";
+    const config = {
+      dataUrl: buildUrl + "/CryptoTycoonGame.data",
+      frameworkUrl: buildUrl + "/CryptoTycoonGame.framework.js",
+      codeUrl: buildUrl + "/CryptoTycoonGame.wasm",
+      streamingAssetsUrl: "StreamingAssets",
+      companyName: "Pnda Studios",
+      productName: "Crypto Tycoon",
+      productVersion: "0.0.14",
+    };
+
+    var container = document.querySelector("#unity-container");
+    var startButton = document.querySelector("#unity-start");
+    var canvas = document.querySelector("#unity-canvas");
+    var loadingBar = document.querySelector("#unity-loading-bar");
+    var progressBarFull = document.querySelector("#unity-progress-bar-full");
+    var fullscreenButton = document.querySelector("#unity-fullscreen-button");
+
+    var changelog = document.querySelector("#unity-readme");
+
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", "Documentation/Changelog.md", true);
+    xhr.onload = function(e) {
+      let status = xhr.status;
+
+      if (status == 200) {
+        changelog.innerHTML = marked(xhr.responseText);
+      }
+    };
+
+    xhr.send();
+
+    if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+      container.className = "unity-mobile";
+      config.devicePixelRatio = 1;
+    }
+   
+    startButton.onclick = evt => {
+      waa.play();
+      var script = document.createElement("script");
+      script.src = loaderUrl;
+      script.onload = () => {
+
+        changelog.style.display = "none";
+        startButton.style.display = "none";
+        loadingBar.style.display = "block";
+
+        createUnityInstance(canvas, config, (progress) => {
+          progressBarFull.style.width = 100 * progress + "%";
+        }).then((unityInstance) => {
+          loadingBar.style.display = "none";
+          unityInstance.SetFullscreen(1);
+        }).catch((message) => {
+          alert(message);
+        });
+      };
+      document.body.appendChild(script);
+    };
+  </script>
+</body>
+
+</html>
