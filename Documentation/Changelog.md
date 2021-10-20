@@ -40,11 +40,11 @@
 	-  Delivery car will honk its horn when you can claim the delivery and will drive away
 	-  Added a small world around the main area to give it a more character
 	-  Added a dissolve shader that will dissolve anything that moves outside of the world. That uses a proper material
--** Pre Alpha Build 0.0.11**
+- **Pre Alpha Build 0.0.11**
 	-  Added an indicator when the heatmap overlay is active 
 	-  Minor Hud changes to make it feel a bit better
 	-  Added a minimap to the hud that shows you where you are in the world
--** Pre Alpha Build 0.0.12**
+- **Pre Alpha Build 0.0.12**
 	-  Automatically convert your coins at the given rate back to $ to cover your monthly fees
 	-  Implement a new design that better fits the game
 	-  Updated the main landing site to display new colors
@@ -57,7 +57,7 @@
 	-  Overhauled all the remaining screens to the new palette 
 	-  Make sure that the build screen will display how many items you have left
 	-  Broke the delivery service so using the command `c.start.delivery` will actually not work correctly.
--  **Pre Alpha Build 0.0.14**
+- **Pre Alpha Build 0.0.14**
 	-  Added a notification system to the game, so you can get notifications on important gameplay events (due to the game being played at a faster rate it might feel a bit spammy)
 	-  Added a driver system to the shopping experience now you actually have to wait until your order has been delivered before you can start building
 	-  Since the driver system is implemented the `c.start.delivery` is removed from the game.
@@ -66,7 +66,7 @@
 	-  Updated the colors when selecting a rig to match the current theme
 	-  Updated the pivot of the rig manager so it wont shift when changing tabs
 	-  Updated FMOD attribution logo to be more sharper
--  **Pre Alpha Build 0.0.15**
+- **Pre Alpha Build 0.0.15**
 	-   Added a new command `c.set.timescale` that allows you to set the time scale  (days passed per minuted) to `x4` (Normal) `x8` (Fast) `x16` (Faster) or `x32` (Fastest) this will only affect virtual time not speed up the gameplay visually
 	-   Added a new command `c.add.item` that allows you to add items to your inventory easily for debug purposes
 	-   Added abbrivation to your money after your first million. Your cash wil display as `$1.00M` `$1.00B`
