@@ -1,50 +1,50 @@
 # Changelog
 
-- Pre Alpha Build 0.0.1
+- **Pre Alpha Build 0.0.1**
     - Basic Build
-- Pre Alpha Build 0.0.2
+- **Pre Alpha Build 0.0.2**
     - Build with some new UI and background music
-- Pre Alpha Build 0.0.3
+- **Pre Alpha Build 0.0.3**
     - Build with scene switching and some more gameplay
-- Pre Alpha Build 0.0.4
+- **Pre Alpha Build 0.0.4**
     - Added a new way of loading WebGL Builds (The desktop builds can handle multiple threads)
     - Added an animation when placing down new buildings
     - Added a few sound effects
     - Added a new UI
-- Pre Alpha Build 0.0.5 
+- **Pre Alpha Build 0.0.5 **
 	- Added new sound effects for creating transactions
 	- Make sure that you start with a bit of money 
 	- Make a basic purchase system that allows you to actually spend it
 	- Make sure that we can snap our base panels to different anchors
-- Pre Alpha Build 0.0.6
+- **Pre Alpha Build 0.0.6**
 	- Added outlines that willl show up when you select a rig
 	- Removed button that would allow you top open the rig detail menu (this will be replaced later on)
 	- Added a rolling number animation when you receive or trade money / coins
 	- Improvements with the tooltip, that makes sure the 3d world doesnt overlap with the gui interfaces
-- Pre Alpha Build 0.0.7
+- **Pre Alpha Build 0.0.7**
 	-  Added a new purchase menu to purchase new cards
 	-  Removed the hash rate monitor for now information can now be found in the relevant windows
 	-  Added a bind / unbind card option when managing your rig.
-- Pre Alpha Build 0.0.8
+- **Pre Alpha Build 0.0.8**
 	-  Added a visual heat map based on a gradient (still an ongoing effort and is purely visual for now)
 	-  Made sure that tiles can dissipate heat and also transfer heat
 	-  Added a quality menu on the main menu so you can swap out colors
 	-  Added a new flat shading material to all the buildings for a more nicer art style
-- Pre Alpha Build 0.0.9
+- **Pre Alpha Build 0.0.9**
 	-  Added a new item (without a graphic) Air Cooler that will transfer heat across the room, values are still pretty rough but will be improved later on
 	-  Heat will be measured based on the total used watts (watts / 10)
 	-  Added a debug menu that can be opened with the shift + \` key
-- Pre Alpha Build 0.0.10
+- **Pre Alpha Build 0.0.10**
 	-  Added splines to the game, this allows me to simulate some easy traffic without building a whole traffic system
 	-  Added a delivery car to the game that will later on deliver your ordered items in a timely manner spawn him using the `c.start.delivery` command in the console
 	-  Delivery car will honk its horn when you can claim the delivery and will drive away
 	-  Added a small world around the main area to give it a more character
 	-  Added a dissolve shader that will dissolve anything that moves outside of the world. That uses a proper material
-- Pre Alpha Build 0.0.11
+-** Pre Alpha Build 0.0.11**
 	-  Added an indicator when the heatmap overlay is active 
 	-  Minor Hud changes to make it feel a bit better
 	-  Added a minimap to the hud that shows you where you are in the world
-- Pre Alpha Build 0.0.12
+-** Pre Alpha Build 0.0.12**
 	-  Automatically convert your coins at the given rate back to $ to cover your monthly fees
 	-  Implement a new design that better fits the game
 	-  Updated the main landing site to display new colors
@@ -52,12 +52,12 @@
 	-  Overhauled the exchange screen to the new design pallete
 	-  Added buying of crypto so you can play the market
 	-  Added some work in progress vehicles that will drive endlessly
-- Pre Alpha Build 0.0.13
+- **Pre Alpha Build 0.0.13**
 	-  Added a new shopping experience that will later will be connected with the delivery service so you have to wait until your order is shipped
 	-  Overhauled all the remaining screens to the new palette 
 	-  Make sure that the build screen will display how many items you have left
 	-  Broke the delivery service so using the command `c.start.delivery` will actually not work correctly.
--  Pre Alpha Build 0.0.14
+-  **Pre Alpha Build 0.0.14**
 	-  Added a notification system to the game, so you can get notifications on important gameplay events (due to the game being played at a faster rate it might feel a bit spammy)
 	-  Added a driver system to the shopping experience now you actually have to wait until your order has been delivered before you can start building
 	-  Since the driver system is implemented the `c.start.delivery` is removed from the game.
@@ -66,12 +66,14 @@
 	-  Updated the colors when selecting a rig to match the current theme
 	-  Updated the pivot of the rig manager so it wont shift when changing tabs
 	-  Updated FMOD attribution logo to be more sharper
--  Pre Alpha Build 0.0.15
+-  **Pre Alpha Build 0.0.15**
 	-   Added a new command `c.set.timescale` that allows you to set the time scale  (days passed per minuted) to `x4` (Normal) `x8` (Fast) `x16` (Faster) or `x32` (Fastest) this will only affect virtual time not speed up the gameplay visually
 	-   Added a new command `c.add.item` that allows you to add items to your inventory easily for debug purposes
 	-   Added abbrivation to your money after your first million. Your cash wil display as `$1.00M` `$1.00B`
 	-   Reduced the break radius for the AI driver so it breaks less often
 	-   Fixed a bug that allowed for free store items 
+	-   Added a new webpage to make it more pleasant to the eyes
+	-   Reworked the main menu with the same style
 ---
 **Page Tags**
 #changelog
