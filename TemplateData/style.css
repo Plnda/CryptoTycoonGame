@@ -67,6 +67,20 @@ body {
     color: #DFDEE0;
 }
 
+.vignetting {
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: radial-gradient(circle at 50% 32%, rgba(0,0,0,0), #000 123%);
+    position:fixed;
+    bottom:0;
+    height:100%;
+    width:100%;
+    z-index: -4;
+    opacity: 1;
+    object-fit: contain;
+}
+
 .coins {
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -74,20 +88,52 @@ body {
     background-image: url("./coins.svg");
     position:fixed;
     bottom:0;
+    opacity: 1;
     height:100%;
     width:100%;
     z-index: -2;
+}
+.coins2 {
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./coins.svg");
+    position:fixed;
+    bottom: 20px;
+    opacity: 1;
+    height:100%;
+    width:110%;
+    z-index: -3;
+    animation: MoveUpDown 6s ease-in-out infinite;
+}
+
+.first{
+    position:relative;
+}
+
+.boxshadow {
+    box-shadow: 0 2px 100px 0 rgba(241, 229, 36, 0.8);
+    border-radius:50%;
+}
+
+@keyframes MoveUpDown {
+    0%, 100% {
+        bottom: 0;
+    }
+    50% {
+        bottom: 30px;
+    }
 }
 
 .chips {
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.05;
+    opacity: 0.1;
     background-image: url("./chips.svg");
     position:fixed;
     bottom:0;
     height:100%;
     width:100%;
-    z-index: -2;
+    z-index: -5;
 }

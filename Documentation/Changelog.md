@@ -1,6 +1,3 @@
----
-aliases: [Changelog]
----
 # Changelog
 
 - Pre Alpha Build 0.0.1
