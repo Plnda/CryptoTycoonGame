@@ -11,7 +11,7 @@
     - Added an animation when placing down new buildings
     - Added a few sound effects
     - Added a new UI
-- **Pre Alpha Build 0.0.5 **
+- **Pre Alpha Build 0.0.5**
 	- Added new sound effects for creating transactions
 	- Make sure that you start with a bit of money 
 	- Make a basic purchase system that allows you to actually spend it
