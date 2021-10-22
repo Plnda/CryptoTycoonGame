@@ -76,7 +76,7 @@
 	-   Reworked the main menu with the same style
 - **Pre Alpha Build 0.0.16**
 	-  Added a shortcut manager, this will contain remapable keys to do certain actions
-	-  Added a way to close top window with your keyboard (defaults to `escape`)
+	-  Added a way to close top window with your keyboard (defaults to `escape` and `tab` on WebGL since the escape button is reserved)
 	-  Added a shortcut to toggle the build menu (defaults to `B`)
 	-  Added a shortcut to toggle the heat overlay (defaults to `H`)
 	-  Replaced some placeholder icons that are now designed by our designer
