@@ -74,6 +74,14 @@
 	-   Fixed a bug that allowed for free store items 
 	-   Added a new webpage to make it more pleasant to the eyes
 	-   Reworked the main menu with the same style
+- **Pre Alpha Build 0.0.16**
+	-  Added a shortcut manager, this will contain remapable keys to do certain actions
+	-  Added a way to close top window with your keyboard (defaults to `escape`)
+	-  Added a shortcut to toggle the build menu (defaults to `B`)
+	-  Added a shortcut to toggle the heat overlay (defaults to `H`)
+	-  Replaced some placeholder icons that are now designed by our designer
+	-  Altered the way we handle windows, we can now specifiy if a window should be exclusive. Exclusive windows will close all open windows before displaying and will close whenever another window is opened.
+	-  Added a settings window where you can change your preferred keybindings and they will persist game sessions (unless you clear your data)
 ---
 **Page Tags**
 #changelog

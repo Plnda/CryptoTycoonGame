@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "b9ed5a56332ba8d0",
+        "id": "e093dfc859e6c3eb",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -98,16 +98,16 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b9ed5a56332ba8d0",
+  "active": "e093dfc859e6c3eb",
   "lastOpenFiles": [
     "Changelog.md",
+    "Development/UI.md",
     "Screenshot 2021-09-27 at 22.21.54.png",
     "Screenshot 2021-09-28 at 14.21.07.png",
     "Screenshot 2021-09-27 at 22.10.59.png",
     "Screenshot 2021-09-27 at 21.47.59.png",
     "Screenshot 2021-09-27 at 21.30.50.png",
     "Screenshot 2021-09-27 at 21.47.36.png",
-    "Development/UI.md",
     "Resources.md",
     "Development/Colors.md"
   ]
