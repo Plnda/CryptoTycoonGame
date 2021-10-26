@@ -14,17 +14,15 @@ Here are the resources that are used in the current project, we still need to fi
 
 ## Fonts
 - Roboto
+- Poppins
 - Genty Demo (**Need to look into the license**)
 
 ## Sounds
 All ingame and sounds are all grabbed from [Storyblocks](https://storyblocks.com)
 
 ## Icons
-All ingame icons are from [Icon54](https://icon54.com)
-
-# Resources links
-Freely licensed icons: https://www.flaticon.com/authors/pixel-perfect/filled/1
-
+Some icons are from [FlatIcon](https://www.flaticon.com/authors/basic-rounded/flat/)
+Most icons where hand crafted by: Roel Orth
 
 ---
 **Page Tags**

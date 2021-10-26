@@ -36,7 +36,7 @@
                 <div id="unity-progress-bar-full"></div>
             </div>
         </div>
-        <h5 class="mt-3">Version 0.0.16</h5>
+        <h5 class="mt-3">Version 0.0.17</h5>
         <p class="">Report bugs or your suggestions to <a href="https://reddit.com/r/cryptotycoongame/">/r/cryptotycoongame</a></p>
     </div>
     <div class="position-fixed top-50 end-0 translate-middle-y p-3" style="z-index: 11;">
@@ -66,7 +66,7 @@
             streamingAssetsUrl: "StreamingAssets",
             companyName: "Pnda Studios",
             productName: "Crypto Tycoon",
-            productVersion: "0.0.16",
+            productVersion: "0.0.17",
         };
 
         var content = document.querySelector("#content-container");
@@ -106,22 +106,6 @@
             config.devicePixelRatio = 1;
         }
 
-        document
-            .addEventListener("keyup", e => {
-                if(e.key === "F11") {
-                    if(document.fullscreenElement) {
-                        console.log("FS 0");
-                        _unityInstance.SetFullscreen(0);
-                    } else {
-                        console.log("FS 1");
-                        _unityInstance.SetFullscreen(1);
-                    }
-                   
-                }
-                
-                e.preventDefault();
-            })
-
         startButton.onclick = evt => {
             waa.play();
             var script = document.createElement("script");
@@ -131,7 +115,6 @@
                 loadingBar.style.display = "flex";
 
                 createUnityInstance(canvas, config, (progress) => {
-                    console.log(progress);
                     progressBarFull.style.width = 111 * progress + "%";
                 }).then((unityInstance) => {
 

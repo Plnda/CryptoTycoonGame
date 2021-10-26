@@ -82,6 +82,14 @@
 	-  Replaced some placeholder icons that are now designed by our designer
 	-  Altered the way we handle windows, we can now specifiy if a window should be exclusive. Exclusive windows will close all open windows before displaying and will close whenever another window is opened.
 	-  Added a settings window where you can change your preferred keybindings and they will persist game sessions (unless you clear your data)
+- **Pre Alpha Build 0.0.17**
+	-  Add a efficiency value to the mining rigs, the higher the temperature the lower the efficiency.
+	-  Make sure that the colliders are disabled when the heat overlay is opened this allows you to inspect the temperature below placed structures. 
+	-  Base temperature now starts at an cosy 21 degrees
+	-  Add a save and load mechanism for all the services, this means experimental save and load support
+	-  Added a minimum version for save files so expect save files to be broken between updates
+	-  Add a load game button to the main menu to load your previously saved game if available
+	-  Moved to our new domain `https://play.cryptotycoon.dev`
 ---
 **Page Tags**
 #changelog
