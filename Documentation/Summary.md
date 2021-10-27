@@ -24,7 +24,7 @@ The game will be made using [Unity](https://unity3d.com). Specifically during de
 ### Demo version
 Currently a demo build will be running using Unity WebGL, performance will suffer and you willl encounter stutters and glitches. The final version will not be released on Web and does not have the same performance issues.
 
-[Demo](https://plnda.github.io/CryptoTycoonGame)
+[Demo](https://play.cryptotycoon.dev)
 
 The changelog can be found [[Changelog|here]] and is also available using the demo link above.
 

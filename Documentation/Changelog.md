@@ -91,6 +91,15 @@
 	-  Add a load game button to the main menu to load your previously saved game if available
 	-  Moved to our new domain `https://play.cryptotycoon.dev`
 	-  Added a new visual for the mining rigs
+- **Pre Alpha Build 0.0.18**
+	-  Fixed a bug that would prevent the fan from spinning
+	-  Fixed a bug that would auto close multiple screens with a single key press
+	-  Added a new command `c.draw.fps` to display the current frame rate
+	-  Fixed an issue that would keep the card inventory in an old state when selecting a new rig
+	-  Now you can keep on placing items while having a positive inventory
+	-  Removed the price in the build list since you already bought it
+	-  Optimised performance by changing how the heat service works
+	-  Updated some icons to the newest version that where created.
 ---
 **Page Tags**
 #changelog
