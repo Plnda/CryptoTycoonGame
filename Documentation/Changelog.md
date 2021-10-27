@@ -90,6 +90,7 @@
 	-  Added a minimum version for save files so expect save files to be broken between updates
 	-  Add a load game button to the main menu to load your previously saved game if available
 	-  Moved to our new domain `https://play.cryptotycoon.dev`
+	-  Added a new visual for the mining rigs
 ---
 **Page Tags**
 #changelog
