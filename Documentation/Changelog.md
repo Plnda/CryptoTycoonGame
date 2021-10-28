@@ -100,6 +100,9 @@
 	-  Removed the price in the build list since you already bought it
 	-  Optimised performance by changing how the heat service works
 	-  Updated some icons to the newest version that where created.
+- **Pre Alpha Build 0.0.19**
+	-  Fix the delivery van not being able to deliver your items :)
+	-  Added some work in progress input support for mobile devices
 ---
 **Page Tags**
 #changelog
