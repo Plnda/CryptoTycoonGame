@@ -103,6 +103,16 @@
 - **Pre Alpha Build 0.0.19**
 	-  Fix the delivery van not being able to deliver your items :)
 	-  Added some work in progress input support for mobile devices
+- **Pre Alpha Build 0.0.20**
+	-  Added a general settings screen where you can manage some of the basic settings of the game
+	-  Add Rotation, Pinch support to touch devices
+	-  Add a new outline to objects give the game a more toony look
+	-  Add durability to the game, rigs will now break and need repairs
+	-  Add visuals to show the different states a rig can be in (broken, mining)
+	-  Update calendar icon to a new version
+	-  Add a new visual for the cooler
+	-  Added FacePucnh to the game, to prepare for a release on steam
+	-  Fixed how we handle heat in the game will now evenly distribute
 ---
 **Page Tags**
 #changelog
