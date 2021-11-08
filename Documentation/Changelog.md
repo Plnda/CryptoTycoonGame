@@ -113,6 +113,14 @@
 	-  Add a new visual for the cooler
 	-  Added FacePucnh to the game, to prepare for a release on steam
 	-  Fixed how we handle heat in the game will now evenly distribute
+- **Pre Alpha Build 0.0.21**
+	- Add the first Steam Achievement to the game, the goal is to gain a networth of 10b dollars
+	- Add a Steam wrapper that can interact with steam easilier.
+	- Fixed a bug that could cause the close panel button to get unbind;
+	- Removed the delivery system from the game it didn't feel right.
+	- Add basis camera settings to the settings window, so now you can configure the camera to your hearts content.
+	- Add Steam cloud to the game, your save will now be stored on Steam's servers
+	- Added a way to load UI through our services before starting the main game
 ---
 **Page Tags**
 #changelog
