@@ -87,7 +87,7 @@
 
             if (status == 200) {
                 
-                changelog.innerHTML = marked(xhr.responseText);
+                changelog.innerHTML = marked.parse(xhr.responseText);
 
                 var lis = $("#changelog > ul").first().children();
 
