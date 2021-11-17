@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "e093dfc859e6c3eb",
+        "id": "c21484385f14464f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Changelog.md",
-            "mode": "preview"
+            "mode": "source"
           }
         }
       }
@@ -98,16 +98,16 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e093dfc859e6c3eb",
+  "active": "c21484385f14464f",
   "lastOpenFiles": [
     "Changelog.md",
+    "Project Management Tasks.md",
+    "Resources.md",
+    "Summary.md",
     "Development/UI.md",
     "Development/Heat.md",
-    "Project Management Tasks.md",
     "Screenshot 2021-09-27 at 21.47.36.png",
     "Development/Colors.md",
-    "Summary.md",
-    "Resources.md",
     "Screenshot 2021-09-27 at 21.30.50.png",
     "video-card.png"
   ]

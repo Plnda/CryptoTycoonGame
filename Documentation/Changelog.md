@@ -121,6 +121,25 @@
 	- Add basis camera settings to the settings window, so now you can configure the camera to your hearts content.
 	- Add Steam cloud to the game, your save will now be stored on Steam's servers
 	- Added a way to load UI through our services before starting the main game
+- **Pre Alpha Build 0.0.22**
+	- Jobbified the heat logic and can now run in paralel (multithreaded).
+	- Added a long needed game menu when in game that allows you to do certain actions.
+	- Update the designed icons to their latest versions.
+	- Update all purchasable item icons to their 3d model counterpart.
+	- Add new graphic cards with their respective descriptions.
+	- Add a small airco to the that is able to cool your equipment.
+	- Add a new early game item "gaming desktop" that can support a single graphics card.
+	- Add animations to the rigs when you add or remove cards
+	- Add particle effect to the airco
+	- Fixed scrolling in UI with scroll wheel
+- **Pre Alpha Build 0.0.23**
+	- Add a small improvement on the heat job so it will no run even more efficient
+	- Add a new multi-threaded job for rotating fans. This is way more performant than doing it on the main thread.
+	- Add particle effect to the fan
+	- Add new visual aid to the different graphic cards we currently have.
+	- Improved on the main settings menu, sliders will now all feel the same when adjusted (added numeric feedback)
+	- Added Mesh Combine Studio to the project so we can merge small static meshes together to save performance
+	- Cleanup of most existing code
 ---
 **Page Tags**
 #changelog
