@@ -140,6 +140,13 @@
 	- Improved on the main settings menu, sliders will now all feel the same when adjusted (added numeric feedback)
 	- Added Mesh Combine Studio to the project so we can merge small static meshes together to save performance
 	- Cleanup of most existing code
+- **Pre Alpha Build 0.0.24**
+	- Refactored the heatgrid system to support multiple grids, we can now create different subgrids for different buildings, each with their own values.
+	- Refactored the world system to now cover up the entire world, and can be activated using placeable colliders (to define properties)
+	- Update all the mining rigs to their latest versions
+	- Fixed a bug that would still play the mining animations when the rig was broken
+	- Update website to display our steam widget.
+	- Add a new shortcut to visually lower the walls so you can see the grid better (defaults to `X`)
 ---
 **Page Tags**
 #changelog
